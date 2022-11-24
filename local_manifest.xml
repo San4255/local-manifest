@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>"
 <manifest>
 
+   <!-- Remotes -->
+    <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" /> 
+          
  <!--Trees-->
- <project path="device/xiaomi/phoenix" name="San4255/phoenix--rova.git" remote="github" revision="rice" />
- <project path="vendor/xiaomi/phoenix" name="San4255/risan--vendor_xiaomi_phoenix.git" remote="github" revision="a13" />
- <project path="kernel/xiaomi/phoenix" name="San4255/risan-kernel_xiaomi_phoenix.git" remote="github" revision="risan" />
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="SharmagRit/proton-clang.git" remote="github" revision="master" />
+ <project path="device/xiaomi/phoenix" name="San4255/phoenix--rova.git" remote="all" revision="rice" />
+ <project path="vendor/xiaomi/phoenix" name="San4255/risan--vendor_xiaomi_phoenix.git" remote="all" revision="a13" />
+ <project path="kernel/xiaomi/phoenix" name="San4255/risan-kernel_xiaomi_phoenix.git" remote="all" revision="risan" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="SharmagRit/proton-clang.git" remote="all" revision="master" />
 
 </manifest>
