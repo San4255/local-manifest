@@ -4,6 +4,6 @@
  <!--Trees-->
  <project path="device/xiaomi/phoenix" name="sketch-coder/test.git" remote="github" revision="pyro" />
  <project path="vendor/xiaomi/phoenix" name="San4255/risan--vendor_xiaomi_phoenix.git" remote="github" revision="pyro" />
- <project path="kernel/xiaomi/phoenix" name="San4255/risan-kernel_xiaomi_phoenix.git " remote="github" revision="pyro" />
+ <project path="kernel/xiaomi/phoenix" name="San4255/risan-kernel_xiaomi_phoenix.git" remote="github" revision="pyro" />
  
  </manifest>
