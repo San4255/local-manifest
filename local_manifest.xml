@@ -7,7 +7,7 @@
      <remote name="clang" fetch="https://gitlab.com/Amritorock" />
    
      <!-- Sync trees -->
-     <project path="device/xiaomi/phoenix" name="phoenix--rova" remote="san" revision="rice" />
+     <project path="device/xiaomi/phoenix" name="phoenix--rova" remote="san" revision="spark" />
      <project path="vendor/xiaomi/phoenix" name="risan--vendor_xiaomi_phoenix" remote="san" revision="a13" />
      <project path="kernel/xiaomi/phoenix" name="risan-kernel_xiaomi_phoenix" remote="san" revision="risan" />
 
