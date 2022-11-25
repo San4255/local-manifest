@@ -10,7 +10,7 @@
      <project path="kernel/xiaomi/phoenix" name="risan-kernel_xiaomi_phoenix" remote="san" revision="risan" />
 
       <!-- Extra-->
-     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="san" revision="master" clone-depth="1" />
+     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="san" revision="master" />
    
 </manifest>
 
