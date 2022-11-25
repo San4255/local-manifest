@@ -3,7 +3,8 @@
    
       <!-- Remotes -->
      <remote name="san" fetch="https://github.com/San4255" />
-     
+     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+   
      <!-- Sync trees -->
      <project path="device/xiaomi/phoenix" name="phoenix--rova" remote="san" revision="rice" />
      <project path="vendor/xiaomi/phoenix" name="risan--vendor_xiaomi_phoenix" remote="san" revision="a13" />
@@ -11,6 +12,7 @@
 
       <!-- Extra-->
      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="san" revision="master" />
+     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
    
 </manifest>
 
