@@ -1,17 +1,30 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
+
    
+
       <!-- Remotes -->
+
      <remote name="san" fetch="https://github.com/San4255" />
+
      <remote name="clang" fetch="https://gitlab.com/Amritorock" />
+
    
+
      <!-- Sync trees -->
+
      <project path="device/xiaomi/phoenix" name="phoenix--rova" remote="san" revision="spark" />
+
      <project path="vendor/xiaomi/phoenix" name="risan--vendor_xiaomi_phoenix" remote="san" revision="a13" />
+
      <project path="kernel/xiaomi/phoenix" name="risan-kernel_xiaomi_phoenix" remote="san" revision="risan" />
 
       <!-- Extra-->
+
      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+
    
+
 </manifest>
+
