@@ -10,7 +10,9 @@
 
      <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
-   
+     <!-- Remove Projects -->
+
+     <remove-project name="device_qcom_sepolicy_vndr" />
 
      <!-- Sync trees -->
 
@@ -20,6 +22,10 @@
 
      <project path="kernel/xiaomi/phoenix" name="risan-kernel_xiaomi_phoenix" remote="san" revision="risan" />
 
+    <!-- Sepolicy -->
+
+     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="san" revision="pyro" />
+
       <!-- Extra-->
 
      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
@@ -27,4 +33,3 @@
    
 
 </manifest>
-
