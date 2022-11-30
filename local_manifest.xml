@@ -10,7 +10,7 @@
 
      <!-- Remove Projects -->
 
-     <remove-project name="device_qcom_sepolicy_vndr" />
+     <remove-project name="device/qcom/sepolicy_vndr" />
 
      <!-- Sync trees -->
 
